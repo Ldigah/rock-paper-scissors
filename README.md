@@ -1,2 +1,2 @@
-# The Odin Project
-Rock Paper Scissors (Javascript lesson)
+# Rock Paper Scissors
+The Odin Project Javascript Lesson
