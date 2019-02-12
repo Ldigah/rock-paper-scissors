@@ -3,16 +3,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rock Paper Scissors</title>
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
+    <div id="container">
+        
+        <div id="results">
+            <p id="userChoice"></p>
+            <p id="computerChoice"></p>
+            <h3 id="roundResult"></h3>
+        </div>
+    
+        <div class="buttons">
+            <p id="rules">Rules: best of 5 rounds.</p>
+            <h2 id="chooseMove">Chose your move!</h2>
+            <button id="rock">Rock</button>
+            <button id="paper">Papepr</button>
+            <button id="scissors">Scissors</button>
+        </div>
 
-    <div class="container">
-        <button id="rock">Rock</button>
-        <button id="papper">Papepr</button>
-        <button id="scissors">Scissors</button>
+        <div id="scoreboard">
+            <p id="playerScore"></p>
+            <p id="computerScore"></p>
+            <h2 id="gameResult"></h2>
+        </div>
+   
     </div>
-
 <script src="script.js"></script>
 </body>
 </html>
