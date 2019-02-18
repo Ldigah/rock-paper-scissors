@@ -21,7 +21,7 @@ body {
 }
 
 button {
-    width: 40%;
+    width: 30%;
     margin: 5px;
 }
 
@@ -33,6 +33,12 @@ h2 {
 #new-game {
     width: 30%;
     margin: 10px auto;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
 }
 
 
