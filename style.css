@@ -21,12 +21,18 @@ body {
 }
 
 button {
-    width: 25%;
+    width: 30%;
 }
 
 h2 {
     margin: 10px;
     color: #A46C7D;
 }
+
+#new-game {
+    width: 30%;
+    margin: 10px auto;
+}
+
 
 

@@ -6,10 +6,16 @@ let computerScore = document.querySelector('#computerScore');
 let gameResult = document.querySelector('#gameResult');
 let rules = document.querySelector('#rules');
 let buttons = document.querySelector('.buttons');
+let newGame = document.querySelector('#new-game');
 
 let playerSelection;
 let wins = 0;
 let losses = 0;
+
+newGame.style.display = 'none';
+newGame.addEventListener('click', () => {
+    window.location.reload();
+})
 
 let rockButton = document.querySelector('#rock');
 rockButton.addEventListener('click', () => {
@@ -70,16 +76,18 @@ function playRound(playerSelection, computerSelection) {
     playerScore.textContent = 'Your score: ' + wins;
     computerScore.textContent = "Computer's score: " + losses;
     endGame();
-    }
+}
 
 function endGame() {
     if (wins >= 3) {
         gameResult.textContent = 'Congratulations! You won the game!';
         buttons.style.display = 'none';
+        newGame.style.display = 'block';
     } 
     if (losses >= 3) {
         gameResult.textContent = 'Unlucky! You lost the game!';
         buttons.style.display = 'none';
-    } 
+        newGame.style.display = 'block';
+    }
 }
 
