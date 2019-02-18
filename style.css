@@ -21,7 +21,8 @@ body {
 }
 
 button {
-    width: 30%;
+    width: 40%;
+    margin: 5px;
 }
 
 h2 {
