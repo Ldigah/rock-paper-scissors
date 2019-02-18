@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #40527D;
+}
+
+
+body {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);}
+
+#container {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#rules, #results, #scoreboard {
+    margin: 40px;
+}
+
+button {
+    width: 25%;
+}
+
+h2 {
+    margin: 10px;
+    color: #A46C7D;
+}
+
+
